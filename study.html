@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwayat Pendidikan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 15px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 95%;
+            margin: 20px auto;
+        }
+        .table-container {
+            flex: 1;
+            background: linear-gradient(180deg, #0a2342, #193763, #2a4d84);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            padding: 20px;
+            color: #fff;
+        }
+        h2 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #ecf0f1;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        th {
+            background-color: rgba(255,255,255,0.1);
+            color: #ecf0f1;
+            font-weight: bold;
+        }
+        td {
+            color: #f8f9fa;
+        }
+        tr:hover td {
+            background-color: rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Kolom kiri -->
+        <div class="table-container">
+            <h2>Pendidikan SMA</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jenjang</th>
+                        <th>Institusi</th>
+                        <th>Jurusan</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SMA</td>
+                        <td>SMAN 14 PALEMBANG</td>
+                        <td>Ilmu Pengetahuan Sosial</td>
+                        <td>2019-2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Kolom kanan -->
+        <div class="table-container">
+            <h2>Pendidikan Perguruan Tinggi</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jenjang</th>
+                        <th>Institusi</th>
+                        <th>Jurusan</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Perguruan Tinggi</td>
+                        <td>Politeknik Negeri Sriwijaya</td>
+                        <td>Manajemen Informatika</td>
+                        <td>2022-Sekarang</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
